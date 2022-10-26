@@ -45,11 +45,13 @@ set -x
 
         wget https://github.com/saint-13/Linux_Dynamic_Wallpapers/archive/refs/heads/main.zip
 
-        unzip Linux_Dynamic_Wallpapers-main.zip /home/$USERNAME/Imágenes
+        unzip main.zip 
 
-        rm -rf /tmp/Linux_Dynamic_Wallpapers-main.zip
+        rm -rf /tmp/main.zip
+        
+        mv main /home/$USERNAME/Imágenes/Fondos
 
-        cd /home/$USERNAME/Imágenes/Linux_Dynamic_Wallpapers-main
+        cd /home/$USERNAME/Imágenes/Fondos
 
         rm -rf README.md 2static1dynamic.sh Easy_Install.sh install.sh xml/ Screenshots/ Dynamic_Wallpapers/*.xml
 
