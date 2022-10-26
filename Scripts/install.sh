@@ -49,7 +49,7 @@ set -x
 
         rm -rf /tmp/main.zip
         
-        mv main /home/$USERNAME/Imágenes/Fondos
+        mv Linux_Dynamic_Wallpapers-main /home/$USERNAME/Imágenes/Fondos
 
         cd /home/$USERNAME/Imágenes/Fondos
 
